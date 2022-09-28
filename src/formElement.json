@@ -1,0 +1,189 @@
+{
+    "page_label": "PERMITS",
+     "version": "1.0",
+      "code": "MITI_BOTC_IMPORTS_BUSINESS_PERMIT_S0004",
+      "name": "General Import Permit",
+      "applicationFee":100.00,
+      "issuanceFee":0.00,
+      "applicant": [],
+      "owner": [
+        {
+          "key": "companyName",
+          "desc": "Company Name",
+          "field": 0,
+          "formatter": 0,
+          "source": 0
+        },
+        {
+          "key": "companyRegNo",
+          "desc": "Company Reg. No.",
+          "field": 4,
+          "infoType": "company",
+          "formatter": 0,
+          "source": 0
+        },
+        {
+          "key": "licenseNo",
+          "desc": "Trade licence No.",
+          "field": 0,
+          "formatter": 0,
+          "source": 0
+        },
+        {
+          "key": "companyTinNo",
+          "desc": "TIN/VAT Reg. No",
+          "field": 0,
+          "formatter": 0,
+          "source": 0
+        },
+        {
+          "key": "addressLine1",
+          "desc": "Address Line 1",
+          "field": 0,
+          "formatter": 0,
+          "source": 0
+        },
+        {
+          "key": "addressLine2",
+          "desc": "Line 2",
+          "field": 0,
+          "formatter": 0,
+          "source": 0
+        },
+        {
+          "key": "locality",
+          "desc": "City/Town/Village",
+          "field": 0,
+          "formatter": 0,
+          "source": 0
+        },
+        {
+          "key": "country",
+          "desc": "Country",
+          "field": 0,
+          "formatter": 0,
+          "source": 0
+        }
+      ],
+      "permit": [
+        {
+          "key": "purposeOfGoods",
+          "desc": "Purpose of Goods",
+          "field": 2,
+          "formatter": 0,
+          "source": 0
+        },
+        {
+          "key": "productDescription",
+          "desc": "Product Description ",
+          "field": 2,
+          "formatter": 0,
+          "source": 0
+        },
+        {
+          "key": "quantity",
+          "desc": "Quantity",
+          "field": 0,
+          "formatter": 0,
+          "source": 0
+        },
+        {
+          "key": "tariffCode",
+          "desc": "HS code",
+          "field": 0,
+          "formatter": 0,
+          "source": 0
+        },
+        {
+          "key": "customsValue",
+          "desc": "Customs Value",
+          "field": 0,
+          "formatter": 0,
+          "source": 0
+        },
+        {
+          "key": "originCountry",
+          "desc": "Origin Country",
+          "field": 0,
+          "formatter": 0,
+          "source": 0
+        },
+        {
+          "key": "entryPort",
+          "desc": "Port of entry",
+          "field": 0,
+          "formatter": 0,
+          "source": 0
+        },
+        {
+          "key": "declaration1",
+          "desc": "Declaration 1",
+          "field": 6,
+          "formatter": 0,
+          "source": 0,
+          "toolTipInfo": "1. I have satisfied myself that the preparation of the application has been done in conformity with the guidelines and requirements in respect of the above-mentioned import permit provisions, with which I have fully acquainted myself and to which I unconditionally agree to."
+        },
+        {
+          "key": "declaration2",
+          "desc": "Declaration 2",
+          "field": 6,
+          "formatter": 0,
+          "source": 0,
+          "toolTipInfo": "2. I accept that the decision by BOTC will be final and conclusive and that the Ministry of Investment, Trade and Industry or Botswana Unified Revenue Service (BURS)  may at any time conduct or order an investigation to verify information furnished in the application form."
+        },
+        {
+          "key": "declaration3",
+          "desc": "Declaration 3",
+          "field": 6,
+          "formatter": 0,
+          "source": 0,
+          "toolTipInfo": "3. The information furnished in this application is true and correct."
+        },
+        {
+          "key": "declaration4",
+          "desc": "Declaration 4",
+          "field": 6,
+          "formatter": 0,
+          "source": 0,
+          "toolTipInfo": "4. The applicant or any one of its associates, or related party is not subject of an investigation by the Police, the Directorate on Corruption Economic Crime, or the Commissioner for Botswana Unified Revenue Services (BURS) into previous claims or other related matters."
+        }
+      ],
+      "attachments": [
+        {
+          "key": "tradeLicAtt",
+          "desc": "Trading Licence",
+          "field": 3,
+          "source": 0,
+          "descInfo": "Attachemnt of Trading Licence"
+        }
+      ],
+      "issuance": {
+        "type": "Permit",
+        "validity": 14,
+        "period": "Days",
+        "fields": [
+          {
+            "fieldName": "conditions",
+            "fieldLabel": "Conditions",
+            "fieldType": "LongText",
+            "fieldDescription": "",
+            "options": [],
+            "mandatory": true
+          },
+          {
+            "fieldName": "notificationMessage",
+            "defaultValue": "Your permit has been issued. Please print this page and present it to the relevant authorities.",
+            "fieldLabel": "Notification Message",
+            "fieldType": "LongText",
+            "fieldDescription": "",
+            "options": [],
+            "mandatory": true
+          }
+        ],
+        "printout": {
+          "department": "Botswana Trade Commission",
+          "title": "General Import Permit",
+          "suffix": "IP"
+        }
+      }
+    }
